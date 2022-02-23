@@ -1,6 +1,4 @@
-## 利用方法
-
-## Usage
+# Usage
 1. click https://github.com/TOMOYUKI-n/docker-laravel-repo/generate
 2. git clone & change directory
     ```
@@ -11,22 +9,7 @@
     $ make create-project
     ```
 
-## Structure
-app container
-    * Base image
-        * php:8.1-fpm-bullseye
-        * composer:2.1
-
-web container
-    * Base image
-        * nginx:1.20-alpine
-        * node:16-alpine
-
-db container
-    * Base image
-        * mysql/mysql-server:8.0
-
-### docker (lavavel)の場合
+## docker (lavavel)の場合
 * Usage通り
 
 ## docker (lavavel + vue-cli)独立の場合
@@ -81,6 +64,23 @@ $ vi .gitignore
 ```
 $ cd frontend
 $ yarn build
+```
+
+## Structure
+```
+app container
+    * Base image
+        * php:8.1-fpm-bullseye
+        * composer:2.1
+
+web container
+    * Base image
+        * nginx:1.20-alpine
+        * node:16-alpine
+
+db container
+    * Base image
+        * mysql/mysql-server:8.0
 ```
 
 
