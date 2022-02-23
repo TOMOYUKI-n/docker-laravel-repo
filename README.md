@@ -2,7 +2,7 @@
 1. click https://github.com/TOMOYUKI-n/docker-laravel-repo/generate
 2. git clone & change directory
     ```
-    $ git clone git@github.com:TOMOYUKI-n/docker-laravel-repo.git
+    $ git clone git@github.com:TOMOYUKI-n/[new repo name].git
     ```
 3. execute command
     ```
