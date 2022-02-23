@@ -27,6 +27,7 @@ $ rm -rf package.json webpack.mix.js
 ```
 3. create vue.config.js
 ```
+$ cd frontend
 $ touch vue.config.js
 ```
 ```
@@ -45,6 +46,7 @@ module.exports = {
 4. make template dir
 ```
 $ cd frontend
+$ mkdir templates
 $ mv public/index.html templates/base.html
 ```
 5. change web.php(in backend)
